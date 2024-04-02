@@ -3,15 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.unosquare.TestReqres">
+      <class name="com.unosquare.TestExtJson">
         <methods>
           <include name="beforeMethod4"/>
-          <include name="f_Gherkin_post2"/>
-          <include name="beforeMethod3"/>
-          <include name="beforeMethod2"/>
-          <include name="beforeMethod"/>
+          <include name="f_Gherkin_post_register"/>
         </methods>
-      </class> <!-- com.unosquare.TestReqres -->
+      </class> <!-- com.unosquare.TestExtJson -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
