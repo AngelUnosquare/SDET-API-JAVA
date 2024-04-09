@@ -1,35 +1,141 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Sucess 204 validation]]>
+    </line>
+    <line>
+      <![CDATA[Response is: ]]>
+    </line>
     <line>
       <![CDATA[Sucess 200 validation]]>
     </line>
     <line>
-      <![CDATA[Response is: {"copyright":"\nPhil Hart\n","date":"2024-04-02","explanation":"Only in the fleeting darkness of a total solar eclipse is the light of the solar corona easily visible. Normally overwhelmed by the bright solar disk, the expansive corona, the sun's outer atmosphere, is an alluring sight. But the subtle details and extreme ranges in the corona's brightness, although discernible to the eye, are notoriously difficult to photograph. Pictured here, however, using multiple images and digital processing, is a detailed image of the Sun's corona taken during the April 20, 2023 total solar eclipse from Exmouth, Australia. Clearly visible are intricate layers and glowing caustics of an ever changing mixture of hot gas and magnetic fields. Bright looping prominences appear pink just around the Sun's limb. A similar solar corona might be visible through clear skies in a narrow swath across the North America during the total solar eclipse that occurs just six days from today  NASA Coverage: Total Solar Eclipse of 2024 April 8","hdurl":"https://apod.nasa.gov/apod/image/2404/CoronaExmouth_Hart_1920.jpg","media_type":"image","service_version":"v1","title":"Detailed View of a Solar Eclipse Corona","url":"https://apod.nasa.gov/apod/image/2404/CoronaExmouth_Hart_1080.jpg"}
-]]>
+      <![CDATA[Response is: {"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}]]>
+    </line>
+    <line>
+      <![CDATA[Sucess 201 validation]]>
+    </line>
+    <line>
+      <![CDATA[Response is: {"name":"angel","job":"leader","id":"322","createdAt":"2024-04-08T21:29:08.787Z"}]]>
+    </line>
+    <line>
+      <![CDATA[Sucess 201 validation]]>
+    </line>
+    <line>
+      <![CDATA[Response is: {"id":4,"token":"QpwL5tke4Pnpja7X4"}]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-04-02T12:59:49 CST" name="Default suite" finished-at="2024-04-02T12:59:50 CST" duration-ms="1547">
+  <suite started-at="2024-04-08T15:29:06 CST" name="Default suite" finished-at="2024-04-08T15:29:09 CST" duration-ms="3025">
     <groups>
     </groups>
-    <test started-at="2024-04-02T12:59:49 CST" name="Default test" finished-at="2024-04-02T12:59:50 CST" duration-ms="1547">
-      <class name="com.unosquare.NasaTestApi">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.unosquare.NasaTestApi@57c758ac]" started-at="2024-04-02T12:59:49 CST" name="beforeMethod" finished-at="2024-04-02T12:59:49 CST" duration-ms="3" status="PASS">
+    <test started-at="2024-04-08T15:29:06 CST" name="Default test" finished-at="2024-04-08T15:29:09 CST" duration-ms="3025">
+      <class name="com.unosquare.TestReqres">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.unosquare.TestReqres@39529185]" started-at="2024-04-08T15:29:06 CST" name="beforeMethod" finished-at="2024-04-08T15:29:06 CST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="f_Gherkin_get()[pri:0, instance:com.unosquare.NasaTestApi@57c758ac]" started-at="2024-04-02T12:59:49 CST" name="f_Gherkin_get" finished-at="2024-04-02T12:59:50 CST" duration-ms="1521" status="PASS">
+        <test-method is-config="true" signature="beforeMethod2()[pri:0, instance:com.unosquare.TestReqres@39529185]" started-at="2024-04-08T15:29:06 CST" name="beforeMethod2" finished-at="2024-04-08T15:29:06 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod2 -->
+        <test-method is-config="true" signature="beforeMethod3()[pri:0, instance:com.unosquare.TestReqres@39529185]" started-at="2024-04-08T15:29:06 CST" name="beforeMethod3" finished-at="2024-04-08T15:29:06 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod3 -->
+        <test-method is-config="true" signature="beforeMethod4()[pri:0, instance:com.unosquare.TestReqres@39529185]" started-at="2024-04-08T15:29:06 CST" name="beforeMethod4" finished-at="2024-04-08T15:29:06 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod4 -->
+        <test-method signature="f_Gherkin_delete()[pri:0, instance:com.unosquare.TestReqres@39529185]" started-at="2024-04-08T15:29:06 CST" name="f_Gherkin_delete" finished-at="2024-04-08T15:29:07 CST" duration-ms="1528" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Sucess 204 validation]]>
+            </line>
+            <line>
+              <![CDATA[Response is: ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f_Gherkin_delete -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.unosquare.TestReqres@39529185]" started-at="2024-04-08T15:29:07 CST" name="beforeMethod" finished-at="2024-04-08T15:29:07 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod3()[pri:0, instance:com.unosquare.TestReqres@39529185]" started-at="2024-04-08T15:29:07 CST" name="beforeMethod3" finished-at="2024-04-08T15:29:07 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod3 -->
+        <test-method is-config="true" signature="beforeMethod2()[pri:0, instance:com.unosquare.TestReqres@39529185]" started-at="2024-04-08T15:29:07 CST" name="beforeMethod2" finished-at="2024-04-08T15:29:07 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod2 -->
+        <test-method is-config="true" signature="beforeMethod4()[pri:0, instance:com.unosquare.TestReqres@39529185]" started-at="2024-04-08T15:29:07 CST" name="beforeMethod4" finished-at="2024-04-08T15:29:07 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod4 -->
+        <test-method signature="f_Gherkin_get()[pri:0, instance:com.unosquare.TestReqres@39529185]" started-at="2024-04-08T15:29:07 CST" name="f_Gherkin_get" finished-at="2024-04-08T15:29:08 CST" duration-ms="517" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Sucess 200 validation]]>
             </line>
             <line>
-              <![CDATA[Response is: {"copyright":"\nPhil Hart\n","date":"2024-04-02","explanation":"Only in the fleeting darkness of a total solar eclipse is the light of the solar corona easily visible. Normally overwhelmed by the bright solar disk, the expansive corona, the sun's outer atmosphere, is an alluring sight. But the subtle details and extreme ranges in the corona's brightness, although discernible to the eye, are notoriously difficult to photograph. Pictured here, however, using multiple images and digital processing, is a detailed image of the Sun's corona taken during the April 20, 2023 total solar eclipse from Exmouth, Australia. Clearly visible are intricate layers and glowing caustics of an ever changing mixture of hot gas and magnetic fields. Bright looping prominences appear pink just around the Sun's limb. A similar solar corona might be visible through clear skies in a narrow swath across the North America during the total solar eclipse that occurs just six days from today  NASA Coverage: Total Solar Eclipse of 2024 April 8","hdurl":"https://apod.nasa.gov/apod/image/2404/CoronaExmouth_Hart_1920.jpg","media_type":"image","service_version":"v1","title":"Detailed View of a Solar Eclipse Corona","url":"https://apod.nasa.gov/apod/image/2404/CoronaExmouth_Hart_1080.jpg"}
-]]>
+              <![CDATA[Response is: {"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}]]>
             </line>
           </reporter-output>
         </test-method> <!-- f_Gherkin_get -->
-      </class> <!-- com.unosquare.NasaTestApi -->
+        <test-method is-config="true" signature="beforeMethod4()[pri:0, instance:com.unosquare.TestReqres@39529185]" started-at="2024-04-08T15:29:08 CST" name="beforeMethod4" finished-at="2024-04-08T15:29:08 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod4 -->
+        <test-method is-config="true" signature="beforeMethod2()[pri:0, instance:com.unosquare.TestReqres@39529185]" started-at="2024-04-08T15:29:08 CST" name="beforeMethod2" finished-at="2024-04-08T15:29:08 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod2 -->
+        <test-method is-config="true" signature="beforeMethod3()[pri:0, instance:com.unosquare.TestReqres@39529185]" started-at="2024-04-08T15:29:08 CST" name="beforeMethod3" finished-at="2024-04-08T15:29:08 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod3 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.unosquare.TestReqres@39529185]" started-at="2024-04-08T15:29:08 CST" name="beforeMethod" finished-at="2024-04-08T15:29:08 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="f_Gherkin_post()[pri:0, instance:com.unosquare.TestReqres@39529185]" started-at="2024-04-08T15:29:08 CST" name="f_Gherkin_post" finished-at="2024-04-08T15:29:08 CST" duration-ms="493" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Sucess 201 validation]]>
+            </line>
+            <line>
+              <![CDATA[Response is: {"name":"angel","job":"leader","id":"322","createdAt":"2024-04-08T21:29:08.787Z"}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f_Gherkin_post -->
+        <test-method is-config="true" signature="beforeMethod2()[pri:0, instance:com.unosquare.TestReqres@39529185]" started-at="2024-04-08T15:29:08 CST" name="beforeMethod2" finished-at="2024-04-08T15:29:08 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod2 -->
+        <test-method signature="f_Gherkin_post_register()[pri:0, instance:com.unosquare.TestReqres@39529185]" started-at="2024-04-08T15:29:08 CST" name="f_Gherkin_post_register" finished-at="2024-04-08T15:29:09 CST" duration-ms="455" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Sucess 201 validation]]>
+            </line>
+            <line>
+              <![CDATA[Response is: {"id":4,"token":"QpwL5tke4Pnpja7X4"}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f_Gherkin_post_register -->
+        <test-method is-config="true" signature="beforeMethod4()[pri:0, instance:com.unosquare.TestReqres@39529185]" started-at="2024-04-08T15:29:08 CST" name="beforeMethod4" finished-at="2024-04-08T15:29:08 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod4 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.unosquare.TestReqres@39529185]" started-at="2024-04-08T15:29:08 CST" name="beforeMethod" finished-at="2024-04-08T15:29:08 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod3()[pri:0, instance:com.unosquare.TestReqres@39529185]" started-at="2024-04-08T15:29:08 CST" name="beforeMethod3" finished-at="2024-04-08T15:29:08 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod3 -->
+      </class> <!-- com.unosquare.TestReqres -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
